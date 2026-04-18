@@ -1,32 +1,49 @@
 import Image from "next/image";
-export default function AvenueBoardComingSoon() {
-  return (
-    
 
+export default function Home() {
+  return (
     <main className="min-h-screen bg-white text-neutral-900 flex items-center justify-center px-6">
-      <section className="w-full max-w-5xl grid lg:grid-cols-2 gap-12 items-center">
+      <section className="w-full max-w-6xl grid lg:grid-cols-2 gap-12 items-center">
         <div className="space-y-8">
+          <div className="flex items-center gap-3">
+            <Image
+              src="/logo.png"
+              alt="AvenueBoard logo"
+              width={40}
+              height={40}
+              className="rounded-md object-contain"
+            />
+            <span className="text-lg font-semibold tracking-tight">
+              AvenueBoard
+            </span>
+          </div>
+
           <div className="inline-flex items-center gap-2 rounded-full border border-neutral-200 px-4 py-2 text-sm text-neutral-600">
             <span className="h-2 w-2 rounded-full bg-neutral-900" />
             Coming soon
           </div>
-<div className="flex items-center gap-2">
-  <Image src="/logo.png" alt="AvenueBoard" width={32} height={32} />
-  <span className="text-lg font-medium">AvenueBoard</span>
-</div>
+
           <div className="space-y-5">
             <h1 className="text-5xl md:text-6xl font-semibold tracking-tight leading-[0.95]">
               Rent, simplified.
             </h1>
+
             <p className="text-lg md:text-xl text-neutral-600 max-w-xl leading-relaxed">
-              AvenueBoard is a modern rent collection experience built for landlords and designed for tenants.
+              AvenueBoard is a modern rent collection experience built for
+              landlords and designed for tenants.
             </p>
           </div>
 
           <div className="flex flex-wrap gap-3 text-sm text-neutral-600">
-            <span className="rounded-full border border-neutral-200 px-4 py-2">Free for landlords</span>
-            <span className="rounded-full border border-neutral-200 px-4 py-2">ACH-first payments</span>
-            <span className="rounded-full border border-neutral-200 px-4 py-2">Simple by design</span>
+            <span className="rounded-full border border-neutral-200 px-4 py-2">
+              Free for landlords
+            </span>
+            <span className="rounded-full border border-neutral-200 px-4 py-2">
+              ACH-first payments
+            </span>
+            <span className="rounded-full border border-neutral-200 px-4 py-2">
+              Simple by design
+            </span>
           </div>
 
           <form className="flex flex-col sm:flex-row gap-3 max-w-xl">
@@ -44,7 +61,8 @@ export default function AvenueBoardComingSoon() {
           </form>
 
           <p className="text-sm text-neutral-500">
-            Launching soon for self-managed landlords and small property managers.
+            Launching soon for self-managed landlords and small property
+            managers.
           </p>
         </div>
 
@@ -82,7 +100,7 @@ export default function AvenueBoardComingSoon() {
               </div>
               <div className="flex items-center justify-between text-sm">
                 <span className="text-neutral-500">Experience</span>
-                <span className="font-medium">Minimal & premium</span>
+                <span className="font-medium">Minimal &amp; premium</span>
               </div>
             </div>
           </div>
