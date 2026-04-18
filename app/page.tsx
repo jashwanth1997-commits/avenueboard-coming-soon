@@ -9,12 +9,12 @@ export default function Home() {
             <Image
               src="/logo.png"
               alt="AvenueBoard logo"
-              width={40}
-              height={40}
+              width={200}
+              height={200}
               className="rounded-md object-contain"
             />
             <span className="text-lg font-semibold tracking-tight">
-              AvenueBoard
+              
             </span>
           </div>
 
